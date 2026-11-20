@@ -1,5 +1,5 @@
 {
-  "name": "Gezgin",
+  "name": "ZenG",
   "sprite": "",
   "max_hp": 20,
   "max_stamina": 20,
@@ -16,5 +16,13 @@
   "final_boss": "dice_god",
   "final_drop": "dice_gods_edge",
   "depth_hp": 0.04,
-  "depth_dmg": 0.02
+  "depth_dmg": 0.02,
+  "xp_base": 20,
+  "xp_growth": 15,
+  "hp_per_level": 3,
+  "stamina_per_level": 2,
+  "slot_unlock_interval": 2,
+  "max_extra_slots": 2,
+  "sell_ratio": 0.5,
+  "min_sell_gold": 12
 }

@@ -27,7 +27,11 @@ static func ensure_loaded() -> void:
 		en.enemy_name = str(e.get("name", en.id))
 		en.base_hp = int(e.get("hp", 10))
 		en.base_damage_mult = float(e.get("damage_mult", 1.0))
-		en.defense_bonus = int(e.get("defense", 0))
+		if e.has("defense_mult"):
+			en.defense_mult = float(e.get("defense_mult", 1.0))
+		else:
+			en.defense_mult = 1.0 + float(e.get("defense", 0)) * 0.15
+		en.xp = int(e.get("xp", 0))
 		en.is_boss = bool(e.get("boss", false))
 		en.abilities = e.get("abilities", [])
 		en.sprite = load_texture(str(e.get("sprite", "")), "enemies", en.id)
