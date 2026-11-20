@@ -1,0 +1,74 @@
+[
+  {
+    "id": "graveyard",
+    "name": "Graveyard",
+    "crowd": "zombie_swarm",
+    "elite": "ghoul",
+    "boss": "grave_warden",
+    "boss_drops": [
+      "gravedigger_shovel",
+      "shroud_armor",
+      "vampire_ring"
+    ]
+  },
+  {
+    "id": "sheol",
+    "name": "Sheol",
+    "crowd": "imp_swarm",
+    "elite": "hellhound",
+    "boss": "pit_fiend",
+    "boss_drops": [
+      "hell_dagger",
+      "ember_armor",
+      "blood_rune"
+    ]
+  },
+  {
+    "id": "cathedral",
+    "name": "Cathedral",
+    "crowd": "fallen_angel_swarm",
+    "elite": "fallen_seraph",
+    "boss": "archangel_fallen",
+    "boss_drops": [
+      "holy_sword",
+      "halo_armor",
+      "rune_of_guard"
+    ]
+  },
+  {
+    "id": "swamp",
+    "name": "Swamp",
+    "crowd": "mud_swarm",
+    "elite": "bog_troll",
+    "boss": "hydra",
+    "boss_drops": [
+      "toxic_blade",
+      "troll_hide",
+      "lucky_coin"
+    ]
+  },
+  {
+    "id": "frozen_crypt",
+    "name": "Frozen Crypt",
+    "crowd": "skeleton_swarm",
+    "elite": "ice_knight",
+    "boss": "lich_king",
+    "boss_drops": [
+      "frost_axe",
+      "ice_armor",
+      "rune_of_fortune"
+    ]
+  },
+  {
+    "id": "forge",
+    "name": "Forge",
+    "crowd": "golem_swarm",
+    "elite": "iron_golem",
+    "boss": "anvil_titan",
+    "boss_drops": [
+      "titan_hammer",
+      "titan_armor",
+      "iron_amulet"
+    ]
+  }
+]

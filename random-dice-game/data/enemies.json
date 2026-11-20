@@ -1,0 +1,197 @@
+[
+  {
+    "id": "zombie_swarm",
+    "name": "Zombi Sürüsü",
+    "hp": 12,
+    "damage_mult": 0.5,
+    "defense": 0,
+    "boss": false,
+    "abilities": []
+  },
+  {
+    "id": "ghoul",
+    "name": "Ghoul",
+    "hp": 15,
+    "damage_mult": 0.595,
+    "defense": 0,
+    "boss": false,
+    "abilities": [
+      "regen"
+    ]
+  },
+  {
+    "id": "grave_warden",
+    "name": "Mezar Bekçisi",
+    "hp": 18,
+    "damage_mult": 0.578,
+    "defense": 0,
+    "boss": true,
+    "abilities": [
+      "heal"
+    ]
+  },
+  {
+    "id": "imp_swarm",
+    "name": "İmp Sürüsü",
+    "hp": 12,
+    "damage_mult": 0.5,
+    "defense": 0,
+    "boss": false,
+    "abilities": []
+  },
+  {
+    "id": "hellhound",
+    "name": "Hellhound",
+    "hp": 15,
+    "damage_mult": 0.68,
+    "defense": 0,
+    "boss": false,
+    "abilities": [
+      "enrage"
+    ]
+  },
+  {
+    "id": "pit_fiend",
+    "name": "Pit Fiend",
+    "hp": 20,
+    "damage_mult": 0.614,
+    "defense": 0,
+    "boss": true,
+    "abilities": [
+      "double_hit"
+    ]
+  },
+  {
+    "id": "fallen_angel_swarm",
+    "name": "Fallen Angel Sürüsü",
+    "hp": 14,
+    "damage_mult": 0.5,
+    "defense": 0,
+    "boss": false,
+    "abilities": []
+  },
+  {
+    "id": "fallen_seraph",
+    "name": "Fallen Seraph",
+    "hp": 16,
+    "damage_mult": 0.637,
+    "defense": 0,
+    "boss": false,
+    "abilities": []
+  },
+  {
+    "id": "archangel_fallen",
+    "name": "Archangel Düştü",
+    "hp": 20,
+    "damage_mult": 0.614,
+    "defense": 0,
+    "boss": true,
+    "abilities": [
+      "pierce"
+    ]
+  },
+  {
+    "id": "mud_swarm",
+    "name": "Çamur Sürüsü",
+    "hp": 12,
+    "damage_mult": 0.5,
+    "defense": 0,
+    "boss": false,
+    "abilities": []
+  },
+  {
+    "id": "bog_troll",
+    "name": "Bataklık Troll'ü",
+    "hp": 18,
+    "damage_mult": 0.595,
+    "defense": 0,
+    "boss": false,
+    "abilities": []
+  },
+  {
+    "id": "hydra",
+    "name": "Hydra",
+    "hp": 20,
+    "damage_mult": 0.614,
+    "defense": 0,
+    "boss": true,
+    "abilities": [
+      "regen"
+    ]
+  },
+  {
+    "id": "skeleton_swarm",
+    "name": "İskelet Sürüsü",
+    "hp": 12,
+    "damage_mult": 0.5,
+    "defense": 0,
+    "boss": false,
+    "abilities": []
+  },
+  {
+    "id": "ice_knight",
+    "name": "Buz Şövalyesi",
+    "hp": 16,
+    "damage_mult": 0.68,
+    "defense": 0,
+    "boss": false,
+    "abilities": [
+      "pierce"
+    ]
+  },
+  {
+    "id": "lich_king",
+    "name": "Lich Kral",
+    "hp": 20,
+    "damage_mult": 0.65,
+    "defense": 0,
+    "boss": true,
+    "abilities": [
+      "heal",
+      "enrage"
+    ]
+  },
+  {
+    "id": "golem_swarm",
+    "name": "Küçük Golem Sürüsü",
+    "hp": 14,
+    "damage_mult": 0.5,
+    "defense": 1,
+    "boss": false,
+    "abilities": []
+  },
+  {
+    "id": "iron_golem",
+    "name": "Demir Golem",
+    "hp": 18,
+    "damage_mult": 0.637,
+    "defense": 1,
+    "boss": false,
+    "abilities": [
+      "enrage"
+    ]
+  },
+  {
+    "id": "anvil_titan",
+    "name": "Anvil Titan",
+    "hp": 20,
+    "damage_mult": 0.65,
+    "defense": 1,
+    "boss": true,
+    "abilities": [
+      "enrage"
+    ]
+  },
+  {
+    "id": "dice_god",
+    "name": "The Dice God",
+    "hp": 60,
+    "damage_mult": 1.0,
+    "defense": 2,
+    "boss": true,
+    "abilities": [
+      "double_hit",
+      "enrage"
+    ]
+  }
+]

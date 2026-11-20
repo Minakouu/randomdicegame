@@ -1,0 +1,20 @@
+{
+  "name": "Gezgin",
+  "sprite": "",
+  "max_hp": 20,
+  "max_stamina": 20,
+  "start_gold": 0,
+  "start_potions": 2,
+  "starting_weapon": "standard_sword",
+  "starting_armor": "standard_armor",
+  "flee_cost": 5,
+  "shop_every": 5,
+  "potion_heal": 10,
+  "potion_price": 10,
+  "stamina_rest_base": 10,
+  "hp_regen": 5,
+  "final_boss": "dice_god",
+  "final_drop": "dice_gods_edge",
+  "depth_hp": 0.04,
+  "depth_dmg": 0.02
+}
